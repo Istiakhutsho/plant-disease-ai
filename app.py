@@ -27,7 +27,7 @@ st.set_page_config(
 
 # IMPORTANT: Replace this text with the public "Copy link address" of the
 # final_plant_disease_model.keras asset in your GitHub Release.
-MODEL_URL = "PASTE_YOUR_GITHUB_RELEASE_MODEL_URL_HERE"
+MODEL_URL = "https://github.com/Istiakhutsho/plant-disease-ai/releases/download/v1.0/final_plant_disease_model.keras"
 
 MODEL_PATH = Path("/tmp/plant_disease_final.keras")
 CLASS_NAMES_FILE = Path(__file__).with_name("class_names.json")
